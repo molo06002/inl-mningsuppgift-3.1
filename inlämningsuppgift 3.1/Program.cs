@@ -9,7 +9,7 @@ namespace inlämningsuppgift1_3
             Console.WriteLine("Skriv in ditt ålder här: ");
             string x = Console.ReadLine();
             int y = Convert.ToInt32(x);
-            Console.Clear();
+            Console.Clear();//
             switch (y)
             {
                 case 16:
